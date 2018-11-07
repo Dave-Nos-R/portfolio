@@ -8,10 +8,18 @@ To add a file to Github after you have saved the file in the corresponding folde
 
 The file is now in the corresponding folder on Github. Success :)
 
-To delete all files from a Github folder, first cd to the folder you want to delete a file from, then:
+To delete ALL files from a Github folder, first cd to the folder you want to delete a file from, then:
 
 1. type the following: git add . -A
 2. then type: git commit -m "enter commit message here"
 3. then type: git push
 
 The files will no longer be shown on Github. Success :)
+
+To delete a single file from a Github folder, first cd to the folder you want to delete a file from, then:
+
+1. type the following: git rm <filename.suffix>
+2. then type: git commit -m "enter commit message here"
+3. then type: git push
+
+The file will no longer be shown on Github. Success :)
